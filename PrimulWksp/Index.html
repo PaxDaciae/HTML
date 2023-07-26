@@ -1,0 +1,259 @@
+<!--
+    Creati o pagina HTML care sa contina 
+    navigatie ti pe care o admirati sau a unui loc geografic pe care vreti s
+    continut - impartit in 3 sectiuni, fiecare sectiune sa fie dedicata unei personalitaa il vizitati
+    date de contact
+
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Componente PC</title>
+
+    <style>
+        img {
+            max-width: 300px;
+            height:auto;
+        }
+        
+        td, th {
+            border: 1px solid black;
+            text-align: center;
+            padding: 5px;
+        }
+
+        tfoot td {
+            text-align: left;
+        }
+    
+    
+    </style>
+     
+</head>
+
+
+<body>
+    <header>
+        <nav>
+            <h1>Locuri de vizitat</h1>
+            <ul style = "display: flex;">
+                <li>
+                    <a href = "#">Despre</a>
+                </li>
+                <li>
+                    <a href = "#">Procesoare</a>
+                </li>
+                <li>
+                    <a href = "#">Placi Video</a>
+                </li>
+                <li>
+                    <a href = "#">Medii de Stocare</a>
+                </li>
+                <li>
+                    <a href = "#">Contact</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <h2>Romania</h2>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus dolore iure quasi in fugiat explicabo! Incidunt deserunt consectetur ut? Id, ratione natus assumenda hic inventore illo voluptatem. Ullam, non expedita!
+            </p>
+            <div style = "display:flex;">
+                <article>
+                    <img src="./Pictures/Romania.jpg" alt="Romania">
+                    <p>FILLERCONTENT</p>
+                </article>
+                <article>
+                    <img src="./Pictures/Romania.jpg" alt="Romania">
+                    <p>FILLERCONTENT</p>
+                </article>
+                <article>
+                    <img src="./Pictures/Romania.jpg" alt="Romania">
+                    <p>FILLERCONTENT</p>
+                </article>
+            </div>
+            
+        </section>
+        <section>
+            <h2>Olanda</h2>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus dolore iure quasi in fugiat explicabo! Incidunt deserunt consectetur ut? Id, ratione natus assumenda hic inventore illo voluptatem. Ullam, non expedita!
+            </p>
+            <div style = "display:flex;"> 
+                <article>
+                    <img src="./Pictures/Holland.jpg" alt="">
+                    <p>FILLERCONTENT</p>
+                </article>
+                <article>
+                    <img src="./Pictures/Holland.jpg" alt="">
+                    <p>FILLERCONTENT</p>
+                </article>
+                <article>
+                    <img src="./Pictures/Holland.jpg" alt="">
+                    <p>FILLERCONTENT</p>
+                </article>
+            </div>
+
+        </section>
+        <section>
+            <h2>Germania</h2>
+
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus dolore iure quasi in fugiat explicabo! Incidunt deserunt consectetur ut? Id, ratione natus assumenda hic inventore illo voluptatem. Ullam, non expedita!
+            </p>
+            <div style = "display:flex;">
+                <article>
+                    <img src="./Pictures/Germany.jpg" alt="">
+                    <p>FILLERCONTENT</p>
+                </article>
+                <article>
+                    <img src="./Pictures/Germany.jpg" alt="">
+                    <p>FILLERCONTENT</p>
+                </article>
+                <article>
+                    <img src="./Pictures/Germany.jpg" alt="">
+                    <p>FILLERCONTENT</p>
+                </article>
+                
+            </div>
+        </section>
+        <section>
+            <table>
+                <thead>
+                    <tr>
+                        <th>
+                            Course Number
+                        </th>
+                        <th>
+                            Course Tile
+                        </th>
+                        <th>
+                            Semester Taken
+                        </th>
+                    </tr>
+
+                </thead>
+                <tbody>
+                    <tr>
+                        <td colspan="3">
+                            For Credit
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>6.813</td>
+                        <td>UI Design and Implementation</td>
+                        <td>Spring 2013</td>
+                    </tr>
+                    <tr>
+                        <td>6.034</td>
+                        <td>Artificial Intelligence</td>
+                        <td>Spring 2012</td>
+                    </tr>
+                    <tr>
+                        <td>6.006</td>
+                        <td>Introduction to Algorhythms</td>
+                        <td>Fall 2011</td>
+                    </tr>
+                    <tr>
+                        <td colspan="3">
+                            Listener
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>6.801</td>
+                        <td>Machine Vision</td>
+                        <td>Fall 2011</td>
+                    </tr>
+                    <tr>
+                        <td>6.830</td>
+                        <td>Database Systems</td>
+                        <td>Fall 2012</td>
+                    </tr>
+                </tbody>
+                
+            </table>
+
+            <h2>Second Table</h2>
+
+            <table>
+                <thead>
+                    <tr>
+                        <th colspan="7">
+                            Table 3. Energy Production by major source from 1960 to 1980<sup>1</sup>
+                        </th>
+                    </tr>
+                    <tr>        
+                        <th rowspan="2">
+                            Year
+                        </th>
+                        <th colspan="1" rowspan = "2">
+                            Total Production (quad BTU)
+                        </th>
+                        <th colspan="4">
+                            Percent Production
+                        </h>
+                    </tr>
+                    <tr>
+                        <th>Coal</th>
+                        <th>Petroleum</th>
+                        <th>Natural Gas</th>
+                        <th>Other<sup>2</sup></th>
+                        
+                    </tr>
+                    
+                </thead>
+
+                <tbody>
+                    <tr>
+                        <td>1960</td>
+                        <td>41.5</td>
+                        <td>26.1</td>
+                        <td>36.0</td>
+                        <td>34.0</td>
+                        <td>3.9</td>
+                    </tr>
+                  
+                    <tr>
+                        <td>1970</td>
+                        <td>62.1</td>
+                        <td>23.5</td>
+                        <td>32.9</td>
+                        <td>38.9</td>
+                        <td>4.7</td>
+                    </tr> 
+
+                    <tr>
+                        <td>1980</td>
+                        <td>64.8</td>
+                        <td>28.7</td>
+                        <td>28.2</td>
+                        <td>34.2</td>
+                        <td>8.9</td>
+                    </tr>
+
+                </tbody>
+               
+                <tfoot>
+                    <tr>
+                        <td colspan="6"><sup>1</sup><em>Source</em>:U.S.Energy Informaton Administration, <em>Annual Energy Review</em></td>
+                    </tr>
+                    <tr>
+                        <td colspan="6"><sup>2</sup>Includes hydropower, nuclear power, geothermal power, and others.</td>
+                    </tr>
+                </tfoot>
+            </table>
+        </section>
+    </main>
+    <footer>
+        <p>
+            Contact: tari_de_vizitat@gmail.com
+        </p>
+    </footer>
+</body>
+</html>

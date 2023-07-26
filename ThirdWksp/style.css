@@ -1,0 +1,98 @@
+.body {
+    background-color: rgb(249, 243, 235);
+}
+.navbar .right-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 33%;
+}
+.ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+.navbar { 
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.navbar .left-section {
+    width: 50%;
+}
+.form-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+}
+input:nth-child(odd) {
+    margin: 20px 0;
+    height: 30px;
+}
+input:nth-child(even) {
+    text-transform: uppercase;
+    background-color: #F1c40f;
+    border: unset;
+    font-weight: bolder;
+    height: 30px;
+    width: 140px;
+    align-self: center;
+
+}
+
+.services-container {
+    margin-top: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.services-item {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 60%;
+}
+
+.services-item i {
+    padding-right: 20px;
+    color: darkorange;
+}
+
+.item-content {
+    margin-left: 30px;
+}
+
+.item-content p {
+    font-size: 18px;
+}
+
+@media only screen and (max-width: 600px) {
+    body {
+      background-color: lightblue;
+    }
+  }
+@media only screen and (max-width: 600px) and (min-width: 500px)  {
+body {
+    background-color: black;
+    }
+}
+@media only screen and (max-width: 500px) and (min-width: 400px)  {
+body {
+    background-color: blue;
+    }
+}
+@media only screen and (max-width: 400px) and (min-width: 300px)  {
+body {
+    background-color: red;
+    }
+}
